@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../sass/root.scss"
+        "../tester-1.scss"
     ],
     "names": [],
-    "file": "root.css"
+    "file": "tester-1.css"
 }
