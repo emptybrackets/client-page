@@ -1,0 +1,39 @@
+@import "variables";
+@import "root";
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: $bs-font-inter;
+  color: $bs-white;
+  background: $color-optional !important;
+}
+
+.navbar-brand {
+    img {
+        width: 325px;
+        height: 90px;
+        position: relative;
+    }
+}
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .start {
+    width: 195px;
+    height: 95px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+  }

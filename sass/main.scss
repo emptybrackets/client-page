@@ -4,65 +4,136 @@
 body {
   width: 100%;
   height: 100%;
+  font-family: $bs-font-inter;
+  color: $bs-white;
+  background: $color-optional !important;
 }
 
 // Header Caption
 .navbar {
-  background: var(--bs-gradient-button) !important;
+  background: $bs-gradient-button !important;
 
-  #home, #menu {
-    background: var(--bs-gradient-button);
+  #home,
+  #menu {
+    background: $bs-gradient-button;
     border: none;
-    color: $button-txt-color;
+    color: $bs-brown;
   }
 }
 
 .caption {
-  font-family: var(--bs-font-sedan);
+  font-family: $bs-font-sedan;
 }
 
 .offcanvas {
   background: rgba(181, 96, 49, 0.85) !important;
-  font-family: var( --bs-font-inter);
+  font-family: $bs-font-inter;
 
   h5 {
-    color: var(--bs-white);
+    color: $bs-white;
   }
 
   .body {
-    color: var(--bs-white);
+    color: $bs-white;
     font-size: 16px;
+    // overflow: hidden; 
   }
 }
 
-  /* Make the image responsive */
-  img {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  
+/* Make the image responsive */
+img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
 
-// Container
-  /* Style the button and place it in the middle of the container/image */
-  .start {
-    width: 115px;
-    height: 50px;
-    position: absolute;
-    font-family: $font-button;
-    top: 85%;
-    left: 50%;
-    filter: drop-shadow(0px 2px 4px rgba(105, 96, 101, 0.3)) !important;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background: var(--bs-gradient-button);
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 50px !important;
+// Container Button Start
+/* Style the button and place it in the middle of the container or image */
+.start {
+  width: 115px;
+  height: 50px;
+  position: absolute;
+  font-family: $font-button;
+  top: 75%;
+  left: 50%;
+  filter: drop-shadow(0px 2px 4px rgba(105, 96, 101, 0.3)) !important;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: $bs-gradient-button;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px !important;
+}
+
+// Combo box
+.container-box {
+  width: 85%;
+  height: 255px;
+  background: $color-optional;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  // border-style: ridge;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-left: 7%;
+
+  h3,
+  .form-select {
+    margin-left: 6%;
   }
-  .container-box {
-    border-style: ridge;
+
+  h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
   }
+
+  .form-select {
+    width: 235px !important;
+    border-color: $bs-dark;
+  }
+}
+
+// Button Fight
+.fight {
+  width: 120px;
+  height: 55px;
+  position: absolute;
+  font-family: $font-button;
+  font-weight: 500;
+  top: 75%;
+  left: 50%;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: $color-optional;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px !important;
+}
+
+// .container-box-second {
+//   width: 85%;
+//   height: 435px;
+//   background: $color-optional;
+//   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+//   border-radius: 10px;
+//   // border-style: ridge;
+//   margin-top: 20%;
+//   margin-bottom: 20%;
+//   margin-left: 7%;
+
+//   img {
+//     width: 100%;
+//     height: 100%;
+//   }
+// }
+
+// Tester
+

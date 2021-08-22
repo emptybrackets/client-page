@@ -28,7 +28,7 @@ body {
   height: 100%;
   font-family: "Inter", sans-serif;
   color: #fff;
-  background: linear-gradient(89.5deg, rgba(238, 223, 145, 0.79) 36.31%, #CC6A23 143.64%) !important;
+  background: #25477D !important;
 }
 
 .navbar {
@@ -73,7 +73,7 @@ img {
   height: 50px;
   position: absolute;
   font-family: "Sedgwick Ave Display", cursive;
-  top: 85%;
+  top: 75%;
   left: 50%;
   -webkit-filter: drop-shadow(0px 2px 4px rgba(105, 96, 101, 0.3)) !important;
           filter: drop-shadow(0px 2px 4px rgba(105, 96, 101, 0.3)) !important;
@@ -92,7 +92,7 @@ img {
 .container-box {
   width: 85%;
   height: 255px;
-  background: linear-gradient(89.5deg, rgba(238, 223, 145, 0.79) 36.31%, #CC6A23 143.64%);
+  background: #25477D;
   -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -122,14 +122,15 @@ img {
   height: 55px;
   position: absolute;
   font-family: "Sedgwick Ave Display", cursive;
-  top: 85%;
+  font-weight: 500;
+  top: 75%;
   left: 50%;
-  -webkit-filter: drop-shadow(0px 2px 4px rgba(105, 96, 101, 0.3)) !important;
-          filter: drop-shadow(0px 2px 4px rgba(105, 96, 101, 0.3)) !important;
+  -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background: linear-gradient(92.79deg, #D57A27 -0.44%, #EEDF91 44.29%, #CC6A23 99.42%);
+  background: #25477D;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
